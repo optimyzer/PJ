@@ -1,0 +1,102 @@
+
+.lander { padding-top: 85px; }
+.landingBox.landerform { padding: 0; overflow: hidden; min-height: 387px; position: relative; }
+.landingBox.landerform .HomeFormhome { margin: 10px auto 160px; }
+/*.landerform h2 { margin: 100px 0 0; display: inline-block; font-size: 36px; font-weight: bold; line-height: 50px; color: #f6871e; text-transform: uppercase; text-align: center; box-shadow: 0 -4px 0px #f6871e, 0 4px 0px #f6871e; }*/
+.landingBox.landerform .landheadbottom img { display: none; }
+.landingBox.landerform .landheadbottom .para { width: auto; }
+.landingBox.landerform .landheadbottom { position: absolute; bottom: 0; width: 100%; }
+.landingBox.landerform .head_banner_f { margin-top: 50px; margin-bottom: 5px; }
+.landingBox.landerform p { margin-top: 15px;  color: #e5e5e5; font-family: "Lato","Open Sans",sans-serif; font-size: 20px; font-weight: 700;    line-height: 24px; text-align: center; text-shadow: 0 1px 0 #000; }
+.landingBox.landerform h4.labour-p { margin: 15px 0; letter-spacing: 0; text-align: center; }
+.landingBox.landerform .landheadbottom span { font-size: 20px; }
+.landingBox.landerform .landheadbottom { display: none; }
+.landcate .marketer { display: block; }
+
+.contentBox .awlicense { padding-left: 0; width: 65.5%; }
+.contentBox .course .awarding .awardhead { display: none; background: #1da1e9; }
+.contentBox .course .awarding h3 { padding: 10px 0; color: #fff; font-size: 26px; position: relative; /*border-bottom: 2px solid #164358; background: #fff;*/ }
+/*.contentBox .course .awarding h3::after { content: ""; z-index: 9; position: absolute; bottom: 0; width: auto; height: auto; border-left: 50px solid transparent; border-right: 50px solid transparent; border-top: 100px solid #1da1e9; }*/
+.contentBox .awlicense .course { margin-top: 15px; }
+.awarding { text-align: center; box-shadow: 0 2px 3px #aaa; -webkit-box-shadow: 0 2px 3px #aaa; -ms-box-shadow: 0 2px 3px #aaa; background: #fff; }
+.awarding .container { padding: 0; width: auto; }
+.awarding .col-md-2.col-sm-6  { display: none; }
+.awarding #Awards { padding: 0; }
+.awarding .partners { padding: 0; width: auto; box-shadow: none; -webkit-box-shadow: none; -ms-box-shadow: none; }
+.awarding .partners li { padding-top: 5px; padding-bottom: 0; width: 30%; float: none; }
+.awarding .partners li img { margin: auto; }
+.headmanage {  }
+
+@media only screen and (max-width: 767px){
+	
+	.landingBox.landerform { padding-bottom: 10px; min-height: 0; }
+	.landingBox.landerform .HomeFormhome { margin-bottom: 0; }
+	.landingBox.landerform .head_banner_f { margin-top: 20px; }
+	.landingBox.landerform h4.head_banner_f_small { margin: 10px 0 0; line-height: 26px; display: none; }
+	.landingBox.landerform .container .container { padding: 0; }
+	.landingBox.landerform .container .container .HomeFormhome { margin: 10px auto; }
+	.landcate .manageBox .maind .common .text { width: 83% !important; }
+	.landcate .manageBox .maind .common { margin: 0 0 20px !important; }
+	.contentBox .awlicense { width: auto; }
+	.contentBox .course .awarding .awardhead { display: block; }		
+	.headermangae .navbar-header { padding: 35px 0 0; }
+	.headermangae .question { padding: 5px; position: absolute; width: 100%; top: 0; left: 0; background: #f6f6f6; }
+	.headermangae .question p { margin-bottom: 0; }
+	.contentBox .course { margin-bottom: 15px; }
+}
+
+
+.new_form_layout .zippara, .new_form_layout .my_zippara {
+    width: 16.25% !important;
+}
+.new_form_layout{ padding-top: 0px; }
+.new_form_layout input#UserEmail {
+    -moz-appearance: textfield;
+    border: 1px solid #ccc;
+    float: left;
+    font-size: 23px;
+    height: 61px;
+    line-height: 25px;
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+}
+.new_form_layout .zippara input#UserEmail {
+	border-color: #ff0000 !important;
+}
+
+.new_form_layout .HomeFormhome {
+    width: 90.7% !important;
+}
+
+.new_form_layout .HomeFormhome .HomeSubmit{ width: 18.7% !important; }
+@media(max-width: 767px){
+	.new_form_layout .HomeFormhome .HomeSubmit {
+		width: 100% !important;
+	}
+	.new_form_layout .zippara, .new_form_layout .my_zippara {
+		width: 100% !important;
+	}
+}
+.landingBox_hp{
+	width: 100%;
+    position: relative;
+    min-height: 472px;
+    background: #444 url("../images/homepro2.jpg") no-repeat scroll center top / cover;
+}
+.cta_2{
+	background: url('../images/homepros-1.jpg') no-repeat;
+    background-size: 100%;
+}
+
+.landingBox_pt{
+	width: 100%;
+    position: relative;
+    min-height: 472px;
+    background: #444 url("../images/painting2.jpg") no-repeat scroll center top / cover;
+}
+
+.cta_pt{
+	background: url('../images/painting3.jpg') no-repeat;
+    background-size: 100%;
+}

@@ -1,0 +1,28 @@
+
+	.errorCls::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+		color:    red;
+		font-size: 16px;
+		
+	}
+	.errorCls:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	   color:    red;
+	   opacity:  1;
+	   font-size: 16px;
+	}
+	.errorCls::-moz-placeholder { /* Mozilla Firefox 19+ */
+	   color:    red;
+	   opacity:  1;
+	   font-size: 16px;
+	}
+	.errorCls:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	   color:    red;
+	  font-size: 16px;
+	}
+	.errorCls:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+	  color:    red;
+	  font-size: 16px;
+	}
+	.errorCls
+	{
+	    border-color: red !important;
+	}

@@ -1,21 +1,27 @@
-<script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=false"></script>
+<!-- <script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=false"></script> -->
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 require_once('include/connection.php');
+
 include('include/config.php');
+
 $body_class = 'homepage';
 $title = "Thank You for Submitting Your Moving Quote Request";
-$meta_keywords = OTHER_PAGE_KEYWORDS;
+$meta_keywords = 'Thank You';
 $meta_description = "Thank you for submitting your moving quote request with MoverJunciton.com. We look forward to helping you with your move.";
+// echo "hi";
 ?>
 <!DOCTYPE html> 
 <html lang="en">
 	<head>
-	<?php include("include/head.php"); ?>
+	<?php  include("include/head.php"); ?>
 	</head>
 	<body class="<?php echo $body_class; ?>">
 
 
-<?php include("include/header.php"); ?>
+<?php  include("include/header.php"); ?>
 		<section id="ContentForm-thanku" class="thanku-bg">
 			<div class="container">
 				<div class="row">
